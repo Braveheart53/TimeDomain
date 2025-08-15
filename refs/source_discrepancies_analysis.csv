@@ -1,0 +1,7 @@
+Topic,Source 1 Position,Source 2 Position,Discrepancy Type,Resolution/Notes
+CZT Computational Complexity,O((N+M) log(N+M)) for general case [Rabiner],Can be optimized to O(N log N) for specific cases [Nature],Complexity bounds vary with implementation,Both correct - depends on algorithm variant and optimization
+Gibbs Phenomenon Mitigation,~9% overshoot is fundamental limitation [NI],Contour design can reduce ringing below 9% [CERN],Mitigation effectiveness depends on method,Both valid - depends on signal characteristics and requirements
+GPU FFT Performance,Plan caching provides significant speedup [CuPy],"Multi-GPU not always beneficial, overhead exists [CuPy]",Performance scaling contradictions,Context-dependent - single vs multi-GPU tradeoffs exist
+FPGA Implementation Efficiency,HLS provides order of magnitude improvement [Libstore],"Limited by memory bandwidth, not computation [Various]",Efficiency claims vary significantly,Depends on problem size and implementation quality
+Memory Requirements,O(N+M) + convolution buffers required [Eurasip],Smart buffering can reduce memory requirements [IEEE],Memory requirement estimates differ,Implementation-specific optimizations affect requirements
+Windowing Function Effectiveness,Hann window optimal for general use [Harris],Exponential windows show superior performance [ArXiv],Optimal windowing function disputed,No universal optimal window - depends on application

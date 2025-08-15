@@ -1,0 +1,4 @@
+Transform,Mathematical Basis,Sampling Points,Computational Complexity,Input Size Constraints,Output Size,Frequency Resolution
+DFT,Direct computation of Z-transform on unit circle,Uniformly spaced on unit circle,O(N²),Any positive integer N,Same as input (N),Fixed by N and sampling rate
+FFT,Efficient factorization of DFT matrix using symmetries,Uniformly spaced on unit circle (power of 2),O(N log N),Typically power of 2 (radix-2),Same as input (N),Fixed by N and sampling rate
+CZT,Z-transform on arbitrary spiral/circular contours via convolution,Arbitrary spacing on spiral or circular contours,O((N+M) log(N+M)),Arbitrary N and M,Arbitrary M points,Adjustable via contour parameters

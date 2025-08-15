@@ -1,0 +1,22 @@
+Transform,Advantages,Disadvantages
+DFT,"• Simple and straightforward
+• No size restrictions
+• Exact mathematical definition
+• Easy to understand","• Very slow O(N²) complexity
+• Impractical for large N
+• Memory intensive
+• No computational optimizations"
+FFT,"• Very fast computation O(N log N)
+• Highly optimized implementations
+• Widely supported in hardware/software
+• Excellent for power-of-2 sizes","• Limited to uniform sampling
+• Less efficient for non-power-of-2
+• Fixed frequency resolution
+• No zoom capability"
+CZT,"• Flexible frequency sampling
+• Zoom capability for spectral analysis
+• Arbitrary contour evaluation
+• High resolution in specific bands","• More complex implementation
+• Higher memory requirements
+• Overhead for small transforms
+• Less optimized than FFT"

@@ -1,0 +1,4 @@
+Transform,Memory Requirements,CPU Implementation,GPU Suitability,FPGA Implementation,Parallelization
+DFT,O(N) input + O(N) output,Simple nested loops,Poor - irregular memory access,Resource intensive,Limited - O(N) parallel multiply-add
+FFT,O(N) + optimizations possible,"Butterfly operations, bit-reversal",Excellent - parallel butterfly ops,Highly efficient with pipeline,Excellent - log N stages parallel
+CZT,O(N+M) + convolution buffers,Convolution via FFT + pre/post processing,Good - parallel convolution,Moderate - requires convolution cores,Good - parallel convolution

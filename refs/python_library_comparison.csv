@@ -1,0 +1,7 @@
+Library,FFT Support,CZT Support,GPU Acceleration,RF/MW Features,Ease of Use,Performance,Best Use Case
+NumPy,Basic FFT,No,No,Basic,Simple,CPU baseline,General array operations
+SciPy,Advanced FFT,Yes (scipy.signal.CZT),No,Signal processing,Intermediate,CPU optimized,Scientific computing & signal processing
+CuPy,GPU FFT,Manual implementation,Yes (CUDA),Basic,Simple (NumPy-like),GPU accelerated,GPU-accelerated numerical computing
+scikit-rf,Time-domain transforms,Time-domain analysis,No,Extensive S-parameters,Specialized,RF optimized,RF/microwave network analysis
+CZT (PyPI),No,Yes (specialized),No,Basic,Simple,CPU specialized,Specialized CZT applications
+RAPIDS cuML,No,No,Yes (CUDA),No,Simple (sklearn-like),GPU ML optimized,GPU machine learning pipelines

@@ -1,0 +1,4 @@
+Transform,Gibbs Phenomenon Susceptibility,Windowing Effects,Ringing Characteristics,Mitigation Strategies
+DFT,High - direct truncation effects,Standard windowing functions apply,~9% overshoot at discontinuities,"Hann, Hamming, Blackman windows"
+FFT,High - same as DFT for truncated signals,Standard windowing functions apply,~9% overshoot at discontinuities,"Hann, Hamming, Blackman windows"
+CZT,Moderate - can be mitigated with contour design,Windowing + contour shaping for reduction,Reduced with proper contour selection,Contour optimization + windowing
